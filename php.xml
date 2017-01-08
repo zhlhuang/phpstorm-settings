@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/bin" id="0584c1bb-e0ce-4570-9e02-50d1b33ca004" name="PHP 5.5" />
+      <interpreter home="/usr/bin/php" id="0584c1bb-e0ce-4570-9e02-50d1b33ca004" name="PHP 5.5" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.5">
-        <phpinfo path_separator=":" version="5.5.14">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php" path_separator=":" version="5.6.25">
+          <additional_php_ini />
+          <configuration_file />
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -37,7 +38,7 @@
             <configuration_option name="date.sunset_zenith" value="90.583333" />
             <configuration_option name="date.timezone" value="" />
             <configuration_option name="dba.default_handler" value="flatfile" />
-            <configuration_option name="default_charset" value="" />
+            <configuration_option name="default_charset" value="UTF-8" />
             <configuration_option name="default_mimetype" value="text/html" />
             <configuration_option name="default_socket_timeout" value="60" />
             <configuration_option name="disable_classes" value="" />
@@ -61,7 +62,7 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/lib/php/extensions/no-debug-non-zts-20121212" />
+            <configuration_option name="extension_dir" value="/usr/lib/php/extensions/no-debug-non-zts-20131226" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -73,14 +74,16 @@
             <configuration_option name="highlight.keyword" value="#007700" />
             <configuration_option name="highlight.string" value="#DD0000" />
             <configuration_option name="html_errors" value="0" />
-            <configuration_option name="iconv.input_encoding" value="ISO-8859-1" />
-            <configuration_option name="iconv.internal_encoding" value="ISO-8859-1" />
-            <configuration_option name="iconv.output_encoding" value="ISO-8859-1" />
+            <configuration_option name="iconv.input_encoding" value="" />
+            <configuration_option name="iconv.internal_encoding" value="" />
+            <configuration_option name="iconv.output_encoding" value="" />
             <configuration_option name="ignore_repeated_errors" value="0" />
             <configuration_option name="ignore_repeated_source" value="0" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
             <configuration_option name="include_path" value=".:" />
+            <configuration_option name="input_encoding" value="" />
+            <configuration_option name="internal_encoding" value="" />
             <configuration_option name="ldap.max_links" value="-1" />
             <configuration_option name="log_errors" value="0" />
             <configuration_option name="log_errors_max_len" value="1024" />
@@ -95,8 +98,8 @@
             <configuration_option name="mbstring.detect_order" value="" />
             <configuration_option name="mbstring.encoding_translation" value="0" />
             <configuration_option name="mbstring.func_overload" value="0" />
-            <configuration_option name="mbstring.http_input" value="pass" />
-            <configuration_option name="mbstring.http_output" value="pass" />
+            <configuration_option name="mbstring.http_input" value="" />
+            <configuration_option name="mbstring.http_output" value="" />
             <configuration_option name="mbstring.http_output_conv_mimetypes" value="^(text/|application/xhtml\+xml)" />
             <configuration_option name="mbstring.internal_encoding" value="" />
             <configuration_option name="mbstring.language" value="neutral" />
@@ -124,9 +127,11 @@
             <configuration_option name="mysqli.max_links" value="-1" />
             <configuration_option name="mysqli.max_persistent" value="-1" />
             <configuration_option name="mysqli.reconnect" value="0" />
+            <configuration_option name="mysqli.rollback_on_cached_plink" value="0" />
             <configuration_option name="mysqlnd.collect_memory_statistics" value="0" />
             <configuration_option name="mysqlnd.collect_statistics" value="1" />
             <configuration_option name="mysqlnd.debug" value="" />
+            <configuration_option name="mysqlnd.fetch_data_copy" value="0" />
             <configuration_option name="mysqlnd.log_mask" value="0" />
             <configuration_option name="mysqlnd.mempool_default_size" value="16000" />
             <configuration_option name="mysqlnd.net_cmd_buffer_size" value="4096" />
@@ -135,7 +140,10 @@
             <configuration_option name="mysqlnd.sha256_server_public_key" value="" />
             <configuration_option name="mysqlnd.trace_alloc" value="" />
             <configuration_option name="open_basedir" value="" />
+            <configuration_option name="openssl.cafile" value="" />
+            <configuration_option name="openssl.capath" value="" />
             <configuration_option name="output_buffering" value="0" />
+            <configuration_option name="output_encoding" value="" />
             <configuration_option name="output_handler" value="" />
             <configuration_option name="pcre.backtrack_limit" value="1000000" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
@@ -217,6 +225,7 @@
             <configuration_option name="zlib.output_compression_level" value="-1" />
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -279,4 +288,3 @@
     </phpInfoCache>
   </component>
 </application>
-
