@@ -10,6 +10,7 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="prd" type="PLAIN_TEXT" />
       <mapping ext="cer" type="PLAIN_TEXT" />
+      <mapping ext="swf" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
