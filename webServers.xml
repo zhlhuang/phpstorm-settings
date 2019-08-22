@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="727be2a8-76e3-4e68-90e3-0db9b0ffb6f0" name="usedcar-web" url="http://usedcar.biz:8888">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
